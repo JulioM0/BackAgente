@@ -30,3 +30,5 @@ C:\Users\BECARIO\source\repos\BackAgente\BackAgente\obj\Debug\net8.0\refint\Back
 C:\Users\BECARIO\source\repos\BackAgente\BackAgente\obj\Debug\net8.0\BackAgente.pdb
 C:\Users\BECARIO\source\repos\BackAgente\BackAgente\obj\Debug\net8.0\BackAgente.genruntimeconfig.cache
 C:\Users\BECARIO\source\repos\BackAgente\BackAgente\obj\Debug\net8.0\ref\BackAgente.dll
+C:\Users\BECARIO\source\repos\BackAgente\BackAgente\obj\Debug\net8.0\BackAgente.sourcelink.json
+C:\Users\BECARIO\source\repos\BackAgente\BackAgente\bin\Debug\net8.0\Newtonsoft.Json.dll

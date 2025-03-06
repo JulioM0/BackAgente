@@ -1,7 +1,36 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\BECARIO\\source\\repos\\BackAgente\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7589F2E3-AD6F-4514-AE2A-25964CEDDE7A}|BackAgente\\BackAgente.csproj|c:\\users\\becario\\source\\repos\\backagente\\backagente\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7589F2E3-AD6F-4514-AE2A-25964CEDDE7A}|BackAgente\\BackAgente.csproj|solutionrelative:backagente\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7589F2E3-AD6F-4514-AE2A-25964CEDDE7A}|BackAgente\\BackAgente.csproj|c:\\users\\becario\\source\\repos\\backagente\\backagente\\controllers\\ninjaonecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7589F2E3-AD6F-4514-AE2A-25964CEDDE7A}|BackAgente\\BackAgente.csproj|solutionrelative:backagente\\controllers\\ninjaonecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7589F2E3-AD6F-4514-AE2A-25964CEDDE7A}|BackAgente\\BackAgente.csproj|c:\\users\\becario\\source\\repos\\backagente\\backagente\\modelos\\organizacionesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7589F2E3-AD6F-4514-AE2A-25964CEDDE7A}|BackAgente\\BackAgente.csproj|solutionrelative:backagente\\modelos\\organizacionesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7589F2E3-AD6F-4514-AE2A-25964CEDDE7A}|BackAgente\\BackAgente.csproj|c:\\users\\becario\\source\\repos\\backagente\\backagente\\services\\ninjaoneservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7589F2E3-AD6F-4514-AE2A-25964CEDDE7A}|BackAgente\\BackAgente.csproj|solutionrelative:backagente\\services\\ninjaoneservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7589F2E3-AD6F-4514-AE2A-25964CEDDE7A}|BackAgente\\BackAgente.csproj|c:\\users\\becario\\source\\repos\\backagente\\backagente\\repositorios\\organizacionesrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7589F2E3-AD6F-4514-AE2A-25964CEDDE7A}|BackAgente\\BackAgente.csproj|solutionrelative:backagente\\repositorios\\organizacionesrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7589F2E3-AD6F-4514-AE2A-25964CEDDE7A}|BackAgente\\BackAgente.csproj|c:\\users\\becario\\source\\repos\\backagente\\backagente\\repositorios\\ninjaonerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7589F2E3-AD6F-4514-AE2A-25964CEDDE7A}|BackAgente\\BackAgente.csproj|solutionrelative:backagente\\repositorios\\ninjaonerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7589F2E3-AD6F-4514-AE2A-25964CEDDE7A}|BackAgente\\BackAgente.csproj|c:\\users\\becario\\source\\repos\\backagente\\backagente\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7589F2E3-AD6F-4514-AE2A-25964CEDDE7A}|BackAgente\\BackAgente.csproj|solutionrelative:backagente\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +38,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\BECARIO\\source\\repos\\BackAgente\\BackAgente\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "BackAgente\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\BECARIO\\source\\repos\\BackAgente\\BackAgente\\Properties\\launchSettings.json",
+              "RelativeToolTip": "BackAgente\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-06T18:42:00.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NinjaOneRepo.cs",
+              "DocumentMoniker": "C:\\Users\\BECARIO\\source\\repos\\BackAgente\\BackAgente\\Repositorios\\NinjaOneRepo.cs",
+              "RelativeDocumentMoniker": "BackAgente\\Repositorios\\NinjaOneRepo.cs",
+              "ToolTip": "C:\\Users\\BECARIO\\source\\repos\\BackAgente\\BackAgente\\Repositorios\\NinjaOneRepo.cs",
+              "RelativeToolTip": "BackAgente\\Repositorios\\NinjaOneRepo.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T18:12:08.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrganizacionesRepo.cs",
+              "DocumentMoniker": "C:\\Users\\BECARIO\\source\\repos\\BackAgente\\BackAgente\\Repositorios\\OrganizacionesRepo.cs",
+              "RelativeDocumentMoniker": "BackAgente\\Repositorios\\OrganizacionesRepo.cs",
+              "ToolTip": "C:\\Users\\BECARIO\\source\\repos\\BackAgente\\BackAgente\\Repositorios\\OrganizacionesRepo.cs",
+              "RelativeToolTip": "BackAgente\\Repositorios\\OrganizacionesRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T17:55:48.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NinjaOneService.cs",
+              "DocumentMoniker": "C:\\Users\\BECARIO\\source\\repos\\BackAgente\\BackAgente\\Services\\NinjaOneService.cs",
+              "RelativeDocumentMoniker": "BackAgente\\Services\\NinjaOneService.cs",
+              "ToolTip": "C:\\Users\\BECARIO\\source\\repos\\BackAgente\\BackAgente\\Services\\NinjaOneService.cs",
+              "RelativeToolTip": "BackAgente\\Services\\NinjaOneService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T17:51:54.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrganizacionesModel.cs",
+              "DocumentMoniker": "C:\\Users\\BECARIO\\source\\repos\\BackAgente\\BackAgente\\Modelos\\OrganizacionesModel.cs",
+              "RelativeDocumentMoniker": "BackAgente\\Modelos\\OrganizacionesModel.cs",
+              "ToolTip": "C:\\Users\\BECARIO\\source\\repos\\BackAgente\\BackAgente\\Modelos\\OrganizacionesModel.cs",
+              "RelativeToolTip": "BackAgente\\Modelos\\OrganizacionesModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T17:53:10.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NinjaOneController.cs",
+              "DocumentMoniker": "C:\\Users\\BECARIO\\source\\repos\\BackAgente\\BackAgente\\Controllers\\NinjaOneController.cs",
+              "RelativeDocumentMoniker": "BackAgente\\Controllers\\NinjaOneController.cs",
+              "ToolTip": "C:\\Users\\BECARIO\\source\\repos\\BackAgente\\BackAgente\\Controllers\\NinjaOneController.cs",
+              "RelativeToolTip": "BackAgente\\Controllers\\NinjaOneController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T16:24:22.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\BECARIO\\source\\repos\\BackAgente\\BackAgente\\Program.cs",
+              "RelativeDocumentMoniker": "BackAgente\\Program.cs",
+              "ToolTip": "C:\\Users\\BECARIO\\source\\repos\\BackAgente\\BackAgente\\Program.cs",
+              "RelativeToolTip": "BackAgente\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T15:27:32.913Z",
+              "EditorCaption": ""
             }
           ]
         }
