@@ -1,8 +1,10 @@
 ﻿using BackAgente.Repositorios;
 using Microsoft.AspNetCore.Mvc;
+using System.Runtime.InteropServices.Marshalling;
 
 namespace BackAgente.Controllers
 {
+    [Route("/activos")]
     public class NinjaOneController : Controller
     {
         private readonly NinjaOneRepo _repo;
@@ -22,6 +24,12 @@ namespace BackAgente.Controllers
         public async Task<IActionResult> Organizaciones()
         {
             var respuesta = await _organizacionesRepo.GetOrganizaciones();
+            return Ok(respuesta);
+        }
+        [HttpGet("devices")]
+        public async Task<IActionResult> Dispositivos()
+        {
+            var respuesta = await _organizacionesRepo.GetDispositivos();
             return Ok(respuesta);
         }
     }
