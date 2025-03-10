@@ -8,11 +8,13 @@ namespace BackAgente.Controllers
     public class NinjaOneController : Controller
     {
         private readonly NinjaOneRepo _repo;
-        private readonly OrganizacionesRepo _organizacionesRepo;
-        public NinjaOneController(NinjaOneRepo ninjaOneRepo, OrganizacionesRepo organizacionesRepo)
+        private readonly AgenteRepo _agenteRepo;
+        private readonly GetLocationsRepo _getLocationsRepo;
+        public NinjaOneController(NinjaOneRepo ninjaOneRepo, AgenteRepo agenteRepo, GetLocationsRepo getLocationsRepo)
         {
             _repo = ninjaOneRepo;
-            _organizacionesRepo = organizacionesRepo;
+            _agenteRepo = agenteRepo;
+            _getLocationsRepo = getLocationsRepo;
         }
         [HttpGet("token")]
         public async Task<IActionResult> Index()
@@ -20,16 +22,16 @@ namespace BackAgente.Controllers
             var respuesta = await _repo.GetToken();
             return Ok(respuesta);
         }
-        [HttpGet("organizations")]
-        public async Task<IActionResult> Organizaciones()
+        [HttpGet("locations")]
+        public async Task<IActionResult> Localizaciones()
         {
-            var respuesta = await _organizacionesRepo.GetOrganizaciones();
+            var respuesta = await _getLocationsRepo.GetLocations();
             return Ok(respuesta);
         }
         [HttpGet("devices")]
         public async Task<IActionResult> Dispositivos()
         {
-            var respuesta = await _organizacionesRepo.GetDispositivos();
+            var respuesta = await _agenteRepo.GetDispositivos();
             return Ok(respuesta);
         }
     }

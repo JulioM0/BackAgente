@@ -27,8 +27,6 @@
         public string lastLoggedInUser { get; set; }
         public string deviceType { get; set; }
     }
-
-
     public class OSInfo
     {
         public string manufacturer { get; set; }
@@ -43,7 +41,6 @@
         public string language { get; set; }
         public bool needsReboot { get; set; }
     }
-
     public class SystemInfo
     {
         public string name { get; set; }
@@ -58,12 +55,10 @@
         public bool virtualMachine { get; set; }
         public string chassisType { get; set; }
     }
-
     public class MemoryInfo
     {
         public long capacity { get; set; }
     }
-
     public class ProcessorInfo
     {
         public string architecture { get; set; }
@@ -73,7 +68,6 @@
         public int numCores { get; set; }
         public int numLogicalCores { get; set; }
     }
-
     public class VolumeInfo
     {
         public string name { get; set; }
@@ -86,5 +80,4 @@
         public long freeSpace { get; set; }
         public string serialNumber { get; set; }
     }
-
 }

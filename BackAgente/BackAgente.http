@@ -1,6 +1,7 @@
 @BackAgente_HostAddress = http://localhost:5107
 
-GET {{BackAgente_HostAddress}}/weatherforecast/
-Accept: application/json
+
+
+
 
 ###

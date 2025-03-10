@@ -6,7 +6,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddScoped<HttpClient>();
 builder.Services.AddScoped<NinjaOneRepo>();
-builder.Services.AddScoped<OrganizacionesRepo>();
+builder.Services.AddScoped<GetLocationsRepo>();
+builder.Services.AddScoped<AgenteRepo>();
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll", policy =>
