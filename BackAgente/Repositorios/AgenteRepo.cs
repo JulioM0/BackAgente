@@ -20,23 +20,26 @@ namespace BackAgente.Repositorios
         {
             var tokenResponse = await _repo.GetToken();
             string token = tokenResponse.access_token;
-
-            var locations = await _getLocationsRepo.GetLocations();
-            int organizationId = 5;
-            string filter = $"org in ({organizationId})";
-
-            _httpClient.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);  
-            var response = await _httpClient.GetAsync($"https://app.ninjarmm.com/v2/devices-detailed?df={filter}");
-            if (!response.IsSuccessStatusCode)
+            //var locations = await _getLocationsRepo.GetLocations();
+            //var loc = locations.FirstOrDefault();
+            int org = 5;
+            int location = 5;
+            string filterOrganization = "";
+            string filterLocation = $"location in ({location})";
+            if (org > 0)
             {
-                var errorMessage = await response.Content.ReadAsStringAsync();
-                throw new HttpRequestException($"Error al obtener el token {response.StatusCode} - {errorMessage}");
+                filterLocation += $" AND org in({org})";
             }
-
-            var responseContent = await response.Content.ReadAsStringAsync();
-            var dispositivos = JsonConvert.DeserializeObject<List<DetallesDispositivoModel>>(responseContent);
-
-            return dispositivos;
+            _httpClient.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);  
+            var responseOrg = await _httpClient.GetAsync($"https://app.ninjarmm.com/v2/devices-detailed?df={filterLocation}");
+            if (!responseOrg.IsSuccessStatusCode)
+            {
+                var errorMessage = await responseOrg.Content.ReadAsStringAsync();
+                throw new HttpRequestException($"Error al obtener el token {responseOrg.StatusCode} - {errorMessage}");
+            }
+            var responseContentOrg = await responseOrg.Content.ReadAsStringAsync();
+            var dispositivosOrg = JsonConvert.DeserializeObject<List<DetallesDispositivoModel>>(responseContentOrg);
+            return dispositivosOrg;
         }
     }
 }
