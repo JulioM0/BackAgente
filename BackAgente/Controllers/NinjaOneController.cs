@@ -29,9 +29,9 @@ namespace BackAgente.Controllers
             return Ok(respuesta);
         }
         [HttpGet("devices")]
-        public async Task<IActionResult> Dispositivos()
+        public async Task<IActionResult> Dispositivos([FromQuery] int id, [FromQuery] int organizationId)
         {
-            var respuesta = await _agenteRepo.GetDispositivos();
+            var respuesta = await _agenteRepo.GetDispositivos(id, organizationId);
             return Ok(respuesta);
         }
     }
