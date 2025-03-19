@@ -16,15 +16,12 @@ namespace BackAgente.Repositorios
             _getLocationsRepo = getLocationsRepo;
         }
 
-        public async Task<List<DetallesDispositivoModel>> GetDispositivos(int id, int organizationId)
+        public async Task<List<DetallesDispositivoModel>> GetDispositivos(int id)
         {
             var tokenResponse = await _repo.GetToken();
             string token = tokenResponse.access_token;
             string filterLocation = $"location in ({id})";
-            if (organizationId > 0)
-            {
-                filterLocation += $" AND org in({organizationId})";
-            }
+           
             _httpClient.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);  
             var responseOrg = await _httpClient.GetAsync($"https://app.ninjarmm.com/v2/devices-detailed?df={filterLocation}");
             if (!responseOrg.IsSuccessStatusCode)
