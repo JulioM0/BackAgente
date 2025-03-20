@@ -14,7 +14,7 @@ namespace BackAgente.Repositorios
             _repo = repo;
         }
 
-        public async Task<List<OrganizationsModel>> GetOrganizations()
+        public async Task<List<OrganizationsModel>> GetOrganizations(int organizationId)
         {
             var tokenResponse = await _repo.GetToken();
             string token = tokenResponse.access_token;

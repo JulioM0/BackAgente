@@ -25,9 +25,9 @@ namespace BackAgente.Controllers
             return Ok(respuesta);
         }
         [HttpGet("organizations")]
-        public async Task<IActionResult> Organizaciones()
+        public async Task<IActionResult> Organizaciones([FromQuery] int organizationId)
         {
-            var respuesta = await _organizationsRepo.GetOrganizations();
+            var respuesta = await _organizationsRepo.GetOrganizations(organizationId);
             return Ok(respuesta);
         }
         [HttpGet("locations")]

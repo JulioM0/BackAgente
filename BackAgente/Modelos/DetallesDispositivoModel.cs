@@ -4,6 +4,7 @@
     {
         public int id { get; set; }
         public int organizationId { get; set; }
+        public string organizationName { get; set; }
         public int locationId { get; set; }
         public string nodeClass { get; set; }
         public int nodeRoleId { get; set; }
