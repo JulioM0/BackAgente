@@ -1,6 +1,8 @@
 using BackAgente.Repositorios;
+using BackAgente.Services;
 var builder = WebApplication.CreateBuilder(args);
 // Agregar servicios al contenedor
+builder.Services.AddSingleton<SQLservice>(new SQLservice(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddControllers();
 builder.Services.AddScoped<HttpClient>();
 builder.Services.AddScoped<NinjaOneRepo>();

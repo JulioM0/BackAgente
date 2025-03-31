@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BackAgente")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0ac6e7461c1733c5064d8fccb9fceba7b19aabd6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b59c008d38039a47ed25bc74cf6b4e62ae7c3f74")]
 [assembly: System.Reflection.AssemblyProductAttribute("BackAgente")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BackAgente")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
