@@ -13,12 +13,10 @@ namespace BackAgente.Services
         {
             _connectionString = connectionString;
         }
-
         private SqlConnection obtenerConexion()
         {
             return new SqlConnection(_connectionString);
         }
-
         public async Task<List<EsquemasModel>> Esquemas()
         {
             var esquemas = new List<EsquemasModel>();
@@ -46,7 +44,6 @@ namespace BackAgente.Services
             }
             return esquemas;
         }
-
         public async Task<List<TipoObjetoModel>> TipoObjetos(int esquemaID)
         {
             var objetos = new List<TipoObjetoModel>();
@@ -55,7 +52,6 @@ namespace BackAgente.Services
             {
                 connection.Open();
                 var query = "SELECT TipoObjetoID, TipoObjeto FROM Activos.TipoObjetos WHERE EsquemaID = @EsquemaID";
-
                 using (var comando = new SqlCommand(query, connection))
                 {
                     comando.Parameters.AddWithValue("@EsquemaID", esquemaID);
@@ -72,8 +68,56 @@ namespace BackAgente.Services
                     }
                 }
             }
-
             return objetos;
+        }
+
+        public async Task<List<AtributosModel>> TipoObjetoAtributo(int tipoObjetoID)
+        {
+            var tipoObjetosAtributos = new List<AtributosModel>();
+
+            using (var connection = obtenerConexion())
+            {
+                connection.Open();
+                var query = "SELECT TipoObjetoAtributoID, TipoObjetoAtributo FROM Activos.TipoObjetosAtributos WHERE TipoObjetoID = @TipoObjetoID";
+                
+                using(var comando = new SqlCommand( query, connection))
+                {
+                    comando.Parameters.AddWithValue("TipoObjetoID", tipoObjetoID);
+                    using (var reader = await comando.ExecuteReaderAsync())
+                    {
+                        while (await reader.ReadAsync())
+                        {
+                            tipoObjetosAtributos.Add(new AtributosModel
+                            {
+                                TipoObjetoAtributoID = reader.GetInt32(0),
+                                TipoObjetoAtributo = reader.GetString(1),
+                            });
+                        }
+                    }
+                }
+            }
+            return tipoObjetosAtributos; 
+        }
+
+        public async Task<bool> CrearValorAtributo(DatosDispositivoDto dto)
+        {
+            using (var connection = obtenerConexion())
+            {
+                await connection.OpenAsync();
+
+                var query = @"
+                    INSERT INTO Activos.ObjetoAtributoValorPredeterminado (ObjetoAtributoID, Valor)
+                    VALUES (@ObjetoAtributoID, @Valor);";
+
+                using (var command = new SqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@ObjetoAtributoID", dto.ObjetoAtributoID);
+                    command.Parameters.AddWithValue("@Valor", dto.Valor);
+
+                    var filas = await command.ExecuteNonQueryAsync();
+                    return filas > 0;
+                }
+            }
         }
     }
 }

@@ -11,24 +11,20 @@
       "RelativeMoniker": "D:0:0:{7589F2E3-AD6F-4514-AE2A-25964CEDDE7A}|BackAgente\\BackAgente.csproj|solutionrelative:backagente\\controllers\\ninjaonecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7589F2E3-AD6F-4514-AE2A-25964CEDDE7A}|BackAgente\\BackAgente.csproj|c:\\users\\becario\\source\\repos\\backagente\\backagente\\modelos\\esquemasmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7589F2E3-AD6F-4514-AE2A-25964CEDDE7A}|BackAgente\\BackAgente.csproj|solutionrelative:backagente\\modelos\\esquemasmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7589F2E3-AD6F-4514-AE2A-25964CEDDE7A}|BackAgente\\BackAgente.csproj|c:\\users\\becario\\source\\repos\\backagente\\backagente\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7589F2E3-AD6F-4514-AE2A-25964CEDDE7A}|BackAgente\\BackAgente.csproj|solutionrelative:backagente\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{7589F2E3-AD6F-4514-AE2A-25964CEDDE7A}|BackAgente\\BackAgente.csproj|c:\\users\\becario\\source\\repos\\backagente\\backagente\\modelos\\atributosmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7589F2E3-AD6F-4514-AE2A-25964CEDDE7A}|BackAgente\\BackAgente.csproj|solutionrelative:backagente\\modelos\\atributosmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7589F2E3-AD6F-4514-AE2A-25964CEDDE7A}|BackAgente\\BackAgente.csproj|c:\\users\\becario\\source\\repos\\backagente\\backagente\\repositorios\\agenterepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7589F2E3-AD6F-4514-AE2A-25964CEDDE7A}|BackAgente\\BackAgente.csproj|solutionrelative:backagente\\repositorios\\agenterepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7589F2E3-AD6F-4514-AE2A-25964CEDDE7A}|BackAgente\\BackAgente.csproj|c:\\users\\becario\\source\\repos\\backagente\\backagente\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7589F2E3-AD6F-4514-AE2A-25964CEDDE7A}|BackAgente\\BackAgente.csproj|solutionrelative:backagente\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7589F2E3-AD6F-4514-AE2A-25964CEDDE7A}|BackAgente\\BackAgente.csproj|c:\\users\\becario\\source\\repos\\backagente\\backagente\\modelos\\datosdispositivodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7589F2E3-AD6F-4514-AE2A-25964CEDDE7A}|BackAgente\\BackAgente.csproj|solutionrelative:backagente\\modelos\\datosdispositivodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7589F2E3-AD6F-4514-AE2A-25964CEDDE7A}|BackAgente\\BackAgente.csproj|c:\\users\\becario\\source\\repos\\backagente\\backagente\\modelos\\tipoobjetomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7589F2E3-AD6F-4514-AE2A-25964CEDDE7A}|BackAgente\\BackAgente.csproj|solutionrelative:backagente\\modelos\\tipoobjetomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7589F2E3-AD6F-4514-AE2A-25964CEDDE7A}|BackAgente\\BackAgente.csproj|c:\\users\\becario\\source\\repos\\backagente\\backagente\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7589F2E3-AD6F-4514-AE2A-25964CEDDE7A}|BackAgente\\BackAgente.csproj|solutionrelative:backagente\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -47,53 +43,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "AgenteRepo.cs",
-              "DocumentMoniker": "C:\\Users\\BECARIO\\source\\repos\\BackAgente\\BackAgente\\Repositorios\\AgenteRepo.cs",
-              "RelativeDocumentMoniker": "BackAgente\\Repositorios\\AgenteRepo.cs",
-              "ToolTip": "C:\\Users\\BECARIO\\source\\repos\\BackAgente\\BackAgente\\Repositorios\\AgenteRepo.cs",
-              "RelativeToolTip": "BackAgente\\Repositorios\\AgenteRepo.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAA0AAAAAAAAAA==",
+              "Title": "DatosDispositivoDto.cs",
+              "DocumentMoniker": "C:\\Users\\BECARIO\\source\\repos\\BackAgente\\BackAgente\\Modelos\\DatosDispositivoDto.cs",
+              "RelativeDocumentMoniker": "BackAgente\\Modelos\\DatosDispositivoDto.cs",
+              "ToolTip": "C:\\Users\\BECARIO\\source\\repos\\BackAgente\\BackAgente\\Modelos\\DatosDispositivoDto.cs",
+              "RelativeToolTip": "BackAgente\\Modelos\\DatosDispositivoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T17:29:43.336Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TipoObjetoModel.cs",
-              "DocumentMoniker": "C:\\Users\\BECARIO\\source\\repos\\BackAgente\\BackAgente\\Modelos\\TipoObjetoModel.cs",
-              "RelativeDocumentMoniker": "BackAgente\\Modelos\\TipoObjetoModel.cs",
-              "ToolTip": "C:\\Users\\BECARIO\\source\\repos\\BackAgente\\BackAgente\\Modelos\\TipoObjetoModel.cs",
-              "RelativeToolTip": "BackAgente\\Modelos\\TipoObjetoModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T16:33:21.848Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\BECARIO\\source\\repos\\BackAgente\\BackAgente\\appsettings.json",
-              "RelativeDocumentMoniker": "BackAgente\\appsettings.json",
-              "ToolTip": "C:\\Users\\BECARIO\\source\\repos\\BackAgente\\BackAgente\\appsettings.json",
-              "RelativeToolTip": "BackAgente\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-27T19:05:18.157Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EsquemasModel.cs",
-              "DocumentMoniker": "C:\\Users\\BECARIO\\source\\repos\\BackAgente\\BackAgente\\Modelos\\EsquemasModel.cs",
-              "RelativeDocumentMoniker": "BackAgente\\Modelos\\EsquemasModel.cs",
-              "ToolTip": "C:\\Users\\BECARIO\\source\\repos\\BackAgente\\BackAgente\\Modelos\\EsquemasModel.cs",
-              "RelativeToolTip": "BackAgente\\Modelos\\EsquemasModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T17:31:35.159Z",
+              "WhenOpened": "2025-04-07T17:55:15.185Z",
               "EditorCaption": ""
             },
             {
@@ -104,7 +61,7 @@
               "RelativeDocumentMoniker": "BackAgente\\Services\\SQLservice.cs",
               "ToolTip": "C:\\Users\\BECARIO\\source\\repos\\BackAgente\\BackAgente\\Services\\SQLservice.cs",
               "RelativeToolTip": "BackAgente\\Services\\SQLservice.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAwwDQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAcwG8AAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-27T17:29:01.152Z",
               "EditorCaption": ""
@@ -117,9 +74,35 @@
               "RelativeDocumentMoniker": "BackAgente\\Controllers\\NinjaOneController.cs",
               "ToolTip": "C:\\Users\\BECARIO\\source\\repos\\BackAgente\\BackAgente\\Controllers\\NinjaOneController.cs",
               "RelativeToolTip": "BackAgente\\Controllers\\NinjaOneController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAIwDkAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEcAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-20T16:06:41.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AtributosModel.cs",
+              "DocumentMoniker": "C:\\Users\\BECARIO\\source\\repos\\BackAgente\\BackAgente\\Modelos\\AtributosModel.cs",
+              "RelativeDocumentMoniker": "BackAgente\\Modelos\\AtributosModel.cs",
+              "ToolTip": "C:\\Users\\BECARIO\\source\\repos\\BackAgente\\BackAgente\\Modelos\\AtributosModel.cs",
+              "RelativeToolTip": "BackAgente\\Modelos\\AtributosModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T18:27:23.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AgenteRepo.cs",
+              "DocumentMoniker": "C:\\Users\\BECARIO\\source\\repos\\BackAgente\\BackAgente\\Repositorios\\AgenteRepo.cs",
+              "RelativeDocumentMoniker": "BackAgente\\Repositorios\\AgenteRepo.cs",
+              "ToolTip": "C:\\Users\\BECARIO\\source\\repos\\BackAgente\\BackAgente\\Repositorios\\AgenteRepo.cs",
+              "RelativeToolTip": "BackAgente\\Repositorios\\AgenteRepo.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAwwB8AAAB0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T17:29:43.336Z",
               "EditorCaption": ""
             },
             {
@@ -132,8 +115,7 @@
               "RelativeToolTip": "BackAgente\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T15:27:32.913Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-05T15:27:32.913Z"
             }
           ]
         }

@@ -1,5 +1,7 @@
-﻿using BackAgente.Repositorios;
+﻿using BackAgente.Modelos;
+using BackAgente.Repositorios;
 using BackAgente.Services;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Runtime.InteropServices.Marshalling;
 
@@ -57,6 +59,20 @@ namespace BackAgente.Controllers
         {
             var respuesta = await _sqlService.TipoObjetos(esquemaID);
             return Ok(respuesta);
+        }
+
+        [HttpGet ("tipoObjetoAtributo")]
+        public async Task<IActionResult> ObjetosAtributos([FromQuery] int tipoObjetoID)
+        {
+            var respuesta = await _sqlService.TipoObjetoAtributo(tipoObjetoID);
+            return Ok(respuesta);
+        }
+
+        [HttpPost("valorAtributo")]
+        public async Task<IActionResult> CrearValorAtributo([FromBody] DatosDispositivoDto dto)
+        {
+            var valor = await _sqlService.CrearValorAtributo(dto);
+            return Ok(valor);
         }
     }
 }
